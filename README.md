@@ -6,8 +6,8 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/antonioclp/sequelize-template) 
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/antonioclp/sequelize-template)](https://github.com/antonioclp/sequelize-template)
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/antonioclp/sequelize-nodejs-template) 
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/antonioclp/sequelize-nodejs-template)](https://github.com/antonioclp/sequelize-nodejs-template)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -27,7 +27,7 @@
 ### Installation
 
 ```bash
-git clone git@github.com:antonioclp/sequelize-template.git
+git clone git@github.com:antonioclp/sequelize-nodejs-template.git
 
 cd sequelize-template
 

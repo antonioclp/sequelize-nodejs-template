@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./.dist",
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@configuration/*": ["./src/core/database/config/*"],
+      "@interfaces/*": ["./src/lib/interfaces/*"],
+      "@types/*": ["./src/lib/types/*"]
+    }
+  }
+}

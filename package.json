@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./.dist/__server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./.dist/src/__server.js",
+    "dev": "npm run build && nodemon ./.dist/src/__server.js",
+    "db:reset": "npx -y tsc && npm run db:drop && npm run db:create && npm run db:migrate && npm run db:seed:all",
+    "db:drop": "npx sequelize-cli db:drop",
+    "db:create": "npx sequelize-cli db:create",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:seed:all": "npx sequelize-cli db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@rocketseat/eslint-config": "^3.0.12",
+    "@stylistic/eslint-plugin-js": "^2.6.2",
+    "@stylistic/eslint-plugin-plus": "^2.6.2",
+    "@stylistic/eslint-plugin-ts": "^2.6.2",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.2.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.8.0",
+    "express": "^4.19.2",
+    "globals": "^15.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  }
+}
